@@ -1,8 +1,8 @@
-# DOM-UTILS
-dom utils using parse5
-## TODO
+# HTML5-UTILS
 
-### Helper functions for parse5
+helper functions to parse and manipulate html5
+
+## TODO
 
 - Create nodes, fragments, comments and shadows
 - Append, prepend, replace, remove, swap operations
@@ -11,8 +11,9 @@ dom utils using parse5
 - Extract contents of link nodes and create curresponsing tags
 - Change tags
 - Ancestors and children helpers
-- Cleaners for diff types of contents
+- Cleaners and minifiers
 - Change value of desired attribute/s
+
 
 
 

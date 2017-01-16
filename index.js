@@ -1,1 +1,1 @@
-module.exports = 'dom dom dom..'
+module.exports = 'html5-utils';
