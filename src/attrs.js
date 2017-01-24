@@ -28,7 +28,6 @@ export function setAttr(element, name) {
   } else {
     element.attrs.push({ name, value });
   }
-  return { name, value };
 }
 
 export function removeAttr(element, name) {
