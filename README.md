@@ -2,6 +2,30 @@
 
 helper functions to parse and manipulate html5
 
+## Attribute Helpers
+
+### getAttrIndex
+```js
+.getAttrIndex(node, attributeName)
+```
+first index of and attribute inside attr array or -1 if attribute is not set
+
+### getAttr
+```js
+.getAttr(node, attributeName)
+```
+returns attribute value or null
+
+### setAttr
+```js
+.setAttr(node, attributeName, value)
+```
+sets/changes attribute.
+
+### removeAttr
+```js
+.removeAttr(node, attributeName)
+```
 ## TODO
 
 - Create nodes, fragments, comments and shadows
