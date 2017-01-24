@@ -1,6 +1,6 @@
 {
   "name": "html5-utils",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "html5 dom utils....",
   "main": "index.js",
   "scripts": {
@@ -24,13 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aruntk/dom-utils.git"
+    "url": "git+https://github.com/aruntk/html5-utils.git"
   },
   "jest": {
     "testPathIgnorePatterns": ["src/", "node_modules/"]
   },
   "keywords": [
     "dom",
+    "html5",
     "parse5",
     "utils",
     "cheerio"
@@ -38,7 +39,7 @@
   "author": "aruntk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aruntk/dom-utils/issues"
+    "url": "https://github.com/aruntk/html5-utils/issues"
   },
-  "homepage": "https://github.com/aruntk/dom-utils#readme"
+  "homepage": "https://github.com/aruntk/html5-utils#readme"
 }
