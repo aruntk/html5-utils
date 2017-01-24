@@ -1,5 +1,7 @@
 import parse5 from 'parse5';
-import * as _ from 'lodash';
+import extend from 'lodash/extend';
+import * as attrs from './attrs';
+const _ = { extend };
 
-const pkg = 'html5-utils';
-export default pkg;
+const html5Utils = {};
+export default _.extend(html5Utils, attrs);
