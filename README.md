@@ -2,6 +2,9 @@
 
 helper functions to parse and manipulate html5
 
+[![Join the chat at https://gitter.im/aruntk/projects](https://badges.gitter.im/aruntk/projects.svg)](https://gitter.im/aruntk/projects?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Check out the package on npm https://www.npmjs.com/package/html5-utils](https://img.shields.io/npm/v/html5-utils.svg)](https://www.npmjs.com/package/html5-utils)
+
 ## Attribute Helpers
 
 ### getAttrIndex
