@@ -28,11 +28,15 @@ export function setAttr(element, name) {
   } else {
     element.attrs.push({ name, value });
   }
+  return { name, value };
 }
 
 export function removeAttr(element, name) {
-  const i = getAttrIndex(element, name);
-  if (i > -1) {
+  const n = name.toLowerCase();
+  return _.map(element.attrs, function(attr, i) {
+    if(attr.name.toLowerCase() !== n) {
+      return true;
+    };
     element.attrs.splice(i, 1);
-  }
+  });
 }
