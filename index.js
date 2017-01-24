@@ -1,1 +1,1 @@
-module.exports = 'html5-utils';
+module.exports = require('./lib/index.js');
