@@ -1,6 +1,7 @@
 import find from 'lodash/find';
 import findIndex from 'lodash/findIndex';
-const _ = { find, findIndex };
+import map from 'lodash/map';
+const _ = { find, findIndex, map };
 
 export function getAttrObj(element, name) {
   const n = name.toLowerCase();
@@ -21,7 +22,7 @@ export function getAttr(element, name) {
   return attr !== undefined ? attr.value : null;
 }
 
-export function setAttr(element, name) {
+export function setAttr(element, name, value) {
   const i = getAttrIndex(element, name);
   if (i > -1) {
     element.attrs[i].value = value;
