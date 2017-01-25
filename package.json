@@ -1,6 +1,6 @@
 {
   "name": "html5-utils",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0-beta.5",
   "description": "html5 dom utils....",
   "main": "index.js",
   "scripts": {
