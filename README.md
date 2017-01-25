@@ -13,6 +13,12 @@ helper functions to parse and manipulate html5
 ```
 first index of the attribute inside attr array or -1 if attribute is not set
 
+### hasAttr
+```js
+.hasAttr(node, attributeName)
+```
+check if attribute is set
+
 
 ### getAttr
 ```js
@@ -26,6 +32,7 @@ returns attribute value or null
 .setAttr(node, attributeName, value)
 ```
 sets/changes attribute.
+
 
 ### removeAttr
 ```js
