@@ -1,7 +1,9 @@
 import parse5 from 'parse5';
 import extend from 'lodash/extend';
 import * as attrs from './attrs';
-const _ = { extend };
+import * as nodeOperations from './nodeOperations';
 
+const _ = { extend };
 const html5Utils = {};
-export default _.extend(html5Utils, attrs);
+
+export default _.extend(html5Utils, attrs, nodeOperations);
