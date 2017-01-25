@@ -17,6 +17,9 @@ export function getAttrIndex(element, name) {
   });
 }
 
+export function hasAttr(element, name) {
+  return getAttrIndex(element, name) !== -1;
+}
 export function getAttr(element, name) {
   const attr = getAttrObj(element, name);
   return attr !== undefined ? attr.value : null;

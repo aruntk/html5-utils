@@ -20,6 +20,19 @@ describe('.getAttrIndex(node, name)', function () {
   });
 });
 
+describe('.hasAttr(node, name)', function () {
+  it('true if attribute set', function () {
+    let doc = parse5.parseFragment('<test-el foo="bar"></test-el>');
+    let node = doc.childNodes[0];
+    assert.equal(true, utils.hasAttr(node, 'foo'));
+  });
+  it('returns false if attribute is not set', function () {
+    let doc = parse5.parseFragment('<test-el foo="bar"></test-el>');
+    let node = doc.childNodes[0];
+    assert.equal(false, utils.hasAttr(node, 'test'));
+  });
+});
+
 describe('.getAttr(node, name)', function () {
   it('returns attribute if set', function () {
     let doc = parse5.parseFragment('<test-el foo="bar"></test-el>');
